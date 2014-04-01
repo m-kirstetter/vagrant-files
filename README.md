@@ -19,7 +19,8 @@ It's a webdev vagrant VM box with:
 * Ruby 1.9.3p194
 * Apache 2.2.22 with mod_rewrite mcrypt curl gd json xdebug
 * Composer installed globally
-* Adminer  
+* Adminer
+* Latest Twitter Bootstrap  
 
 This may change as when the script is run..  
 
@@ -30,7 +31,7 @@ Add the following on top of /etc/hosts file:
 ```
 192.168.10.10   app.dev
 ```
-To install git, virtualbox, vagrant and setup VM
+To install everything
 ```
 sudo apt-get install git virtualbox vagrant
 mkdir project && cd project
@@ -38,45 +39,21 @@ git clone git@github.com:maunoxyd/vagrant-files.git .
 mkdir public
 vagrant up
 vagrant ssh
+cd /vagrant
+sudo chmod +x install-guest.sh
+./instal-guest.sh
 ```
-To suspend/halt/destroy:  
+To suspend/halt/destroy (from host):  
 ```
 vagrant suspend/halt/destroy
 ```
-To list boxes:
+To list boxes (from host):
 ```
 vagrant box list
 ```
-To delete box:
+To delete box (from host):
 ```
 vagrant box remove vagrant-wheezy64 virtualbox
-```
-
-# For npm, run the following:
-```
-curl --insecure https://www.npmjs.org/install.sh | sudo bash
-```
-
-# For grunt, run:
-```
-sudo npm install -g grunt-cli
-cd /vagrant
-npm install grunt --save-dev 
-npm install grunt-contrib-concat --save-dev 
-npm install grunt-contrib-less --save-dev 
-npm install grunt-contrib-uglify --save-dev 
-npm install grunt-contrib-watch --save-dev 
-npm install grunt-phpunit --save-dev
-```
-
-# For Bower:
-```
-sudo npm install -g bower
-```
-
-# For Twitter bootstrap with Bower:
-```
-bower install bootstrap -S
 ```
 
 # Credentials
