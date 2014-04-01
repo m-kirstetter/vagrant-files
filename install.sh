@@ -47,5 +47,5 @@ sudo apt-get update
 sudo apt-get install -y nodejs-legacy
 
 echo "--- Create database name: database user: root password: root ---"
-echo "CREATE DATABASE database CHARACTER SET utf8 COLLATE utf8_general_ci" | mysql -uroot -proot
+echo "CREATE DATABASE db_name CHARACTER SET utf8 COLLATE utf8_general_ci" | mysql -uroot -proot
 
