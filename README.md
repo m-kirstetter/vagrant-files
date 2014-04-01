@@ -18,11 +18,12 @@ It's a webdev vagrant VM box with:
 * Node 0.10.21
 * Ruby 1.9.3p194
 * Apache 2.2.22 with mod_rewrite mcrypt curl gd json xdebug
-* Composer installed globally
+* Composer global install
 * Adminer
+* Latest Grunt & Bower
 * Latest Twitter Bootstrap  
 
-This may change as when the script is run..  
+Edit install-guest.sh to not install Twitter, Grunt, Bower  
 
 The folder where the script is run (host) is the same as /vagrant from inside the VM (guest).  
 
