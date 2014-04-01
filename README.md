@@ -20,7 +20,7 @@ curl --insecure https://www.npmjs.org/install.sh | sudo bash
 # For grunt, run:
 ```
 sudo npm install -g grunt-cli
-cd /to/desired/folder
+cd /vagrant
 npm install grunt --save-dev 
 npm install grunt-contrib-concat --save-dev 
 npm install grunt-contrib-less --save-dev 
