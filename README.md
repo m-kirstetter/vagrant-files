@@ -22,6 +22,10 @@ mkdir public
 vagrant up
 vagrant ssh
 ```
+To suspend/halt/destroy:  
+```
+vagrant suspend/halt/destroy
+```
 
 # For npm, run the following:
 ```
