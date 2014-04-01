@@ -8,7 +8,7 @@ It's a dev vagrant VM box with:
 * MySQL 5.5.35
 * Node 0.10.21
 * Ruby 1.9.3p194
-* Apache 2.2.22 with mod_rewrite
+* Apache 2.2.22 with mod_rewrite mcrypt curl gd json xdebug
 * Composer installed globally
 * Adminer  
 
