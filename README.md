@@ -2,7 +2,7 @@ vagrant-files
 =============
 
 My Vagrant setup  
-It's a dev vagrant VM bow with:  
+It's a dev vagrant VM box with:  
 * Debian 7.4
 * PHP 5.4.4
 * MySQL 5.5.35
