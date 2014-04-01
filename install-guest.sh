@@ -1,4 +1,4 @@
-#! /bin/sh
+#!/bin/bash
 
 curl --insecure https://www.npmjs.org/install.sh | sudo bash
 
