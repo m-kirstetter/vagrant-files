@@ -43,9 +43,9 @@ cd /vagrant
 sudo chmod +x install-guest.sh
 ./instal-guest.sh
 ```
-To suspend/halt/destroy (from host):  
+To start/suspend/halt/destroy (from host):  
 ```
-vagrant suspend/halt/destroy
+vagrant up/suspend/halt/destroy
 ```
 To list boxes (from host):
 ```
