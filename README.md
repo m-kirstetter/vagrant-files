@@ -28,14 +28,27 @@ npm install grunt-contrib-uglify --save-dev
 npm install grunt-contrib-watch --save-dev 
 npm install grunt-phpunit --save-dev
 ```
+
 # For Bower:
 ```
 sudo npm install -g bower
 ```
+
 # For Twitter bootstrap with Bower:
 ```
 bower install bootstrap -S
 ```
+
+# Credentials
+ssh user: vagrant
+
+ssh password: vagrant
+
+mysql database: db_name
+
+mysql user: root
+
+musql password: root
 
 # Credits
 Grunt install source: http://blog.elenakolevska.com/using-grunt-with-laravel-and-bootstrap/
