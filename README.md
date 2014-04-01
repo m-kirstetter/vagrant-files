@@ -2,10 +2,15 @@ vagrant-files
 =============
 
 My Vagrant setup (on an Ubuntu 13.10 host)  
+
 Vagrant is an awesome tool for webdevelopers that allows to create ready-made virtual machines, I use it to keep my laptop clean of any webdevelopment setup. It's good as well for teams to work on exact same setup and if each projects needs different setup.  
-Update install.sh to change initial setup.
+
+Update install.sh to change initial setup.  
+
 URL to access project on host : http://app.dev (1 VM at a time).  
+
 This setup has been made for Ubuntu host and Debian guest. For other hosts, use distro package manager to install virtualbox and git.  
+
 It's a webdev vagrant VM box with:  
 * Debian 7.4
 * PHP 5.4.4
