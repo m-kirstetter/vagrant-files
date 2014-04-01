@@ -3,7 +3,9 @@
 
 Vagrant.configure("2") do |config|
 
-  config.vm.box = "rocketlab/debian-wheezy64"
+  config.vm.box = "debian-wheezy64"
+  
+  config.vm.box_url = "https://s3-eu-west-1.amazonaws.com/rocketlab/wheezy64.box"
 
   ## Choose between an url like http://localhost:8080 or IP based, which allows you to configure a local domain on your host
   #config.vm.network :forwarded_port, guest: 80, host: 8080
