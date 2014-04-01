@@ -20,8 +20,10 @@ It's a webdev vagrant VM box with:
 * Apache 2.2.22 with mod_rewrite mcrypt curl gd json xdebug
 * Composer installed globally
 * Adminer  
-* 
+
 This may change as when the script is run..  
+
+The folder where the script is run (host) is the same as /vagrant from inside the VM (guest).  
 
 # Usage
 Add the following on top of /etc/hosts file:
