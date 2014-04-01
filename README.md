@@ -10,7 +10,7 @@ It's a dev vagrant VM bow with:
 * Ruby 1.9.3p194
 * Apache 2.2.22 with mod_rewrite
 * Composer installed globally
-* Adminer
+* Adminer  
 This may change as when the script is run..
 
 # Usage
