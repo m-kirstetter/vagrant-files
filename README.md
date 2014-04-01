@@ -33,7 +33,7 @@ Add the following on top of /etc/hosts file:
 To install git, virtualbox and setup VM
 ```
 sudo apt-get install git virtualbox
-cd /to/desired/folder
+mkdir project && cd project
 git clone git@github.com:maunoxyd/vagrant-files.git .
 mkdir public
 vagrant up
