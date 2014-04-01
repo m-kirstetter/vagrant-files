@@ -5,11 +5,17 @@ My Vagrant setup
 
 # Usage
 ```
-git clone git@github.com:maunoxyd/vagrant-files.git
+cd /to/desired/folder
+git clone git@github.com:maunoxyd/vagrant-files.git .
+mkdir public
+vagrant up
+vagrant ssh
 ```
 
 # For npm, run the following:
+```
 curl --insecure https://www.npmjs.org/install.sh | sudo bash
+```
 
 # For grunt, run:
 ```
