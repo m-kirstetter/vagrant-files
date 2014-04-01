@@ -27,7 +27,13 @@ npm install grunt-contrib-less --save-dev
 npm install grunt-contrib-uglify --save-dev 
 npm install grunt-contrib-watch --save-dev 
 npm install grunt-phpunit --save-dev
+```
+# For Bower:
+```
 sudo npm install -g bower
+```
+# For Twitter bootstrap with Bower:
+```
 bower install bootstrap -S
 ```
 
