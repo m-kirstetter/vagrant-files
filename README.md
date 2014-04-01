@@ -8,7 +8,7 @@ My Vagrant setup
 git clone git@github.com:maunoxyd/vagrant-files.git
 ```
 
-# If you want to install npm, tun the following:
+# For npm, run the following:
 curl --insecure https://www.npmjs.org/install.sh | sudo bash
 
 # For grunt, run:
