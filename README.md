@@ -30,9 +30,9 @@ Add the following on top of /etc/hosts file:
 ```
 192.168.10.10   app.dev
 ```
-To install git, virtualbox and setup VM
+To install git, virtualbox, vagrant and setup VM
 ```
-sudo apt-get install git virtualbox
+sudo apt-get install git virtualbox vagrant
 mkdir project && cd project
 git clone git@github.com:maunoxyd/vagrant-files.git .
 mkdir public
