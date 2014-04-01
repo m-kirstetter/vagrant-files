@@ -1,7 +1,17 @@
 vagrant-files
 =============
 
-My Vagrant setup
+My Vagrant setup  
+It's a dev vagrant VM bow with:  
+* Debian 7.4
+* PHP 5.4.4
+* MySQL 5.5.35
+* Node 0.10.21
+* Ruby 1.9.3p194
+* Apache 2.2.22 with mod_rewrite
+* Composer installed globally
+* Adminer
+This may change as when the script is run..
 
 # Usage
 ```
@@ -40,17 +50,10 @@ bower install bootstrap -S
 ```
 
 # Credentials
-ssh user: vagrant
-
-ssh password: vagrant
-
-mysql database: db_name
-
-mysql user: root
-
-musql password: root
+ssh user/password: vagrant/vagrant  
+mysql database: db_name  
+mysql user/password: root/root  
 
 # Credits
-Grunt install source: http://blog.elenakolevska.com/using-grunt-with-laravel-and-bootstrap/
-
-Inspired by Jeffrey Way's setup
+Grunt install source: http://blog.elenakolevska.com/using-grunt-with-laravel-and-bootstrap/  
+Inspired by Jeffrey Way's setup  
