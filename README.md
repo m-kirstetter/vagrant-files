@@ -1,7 +1,7 @@
 vagrant-files
 =============
 
-My Vagrant setup  
+My Vagrant setup (on an Ubuntu 13.10 host)
 It's a dev vagrant VM box with:  
 * Debian 7.4
 * PHP 5.4.4
@@ -16,7 +16,7 @@ This may change as when the script is run..
 
 # Usage
 ```
-install git and virtualbox on your host
+sudo apt-get install git virtualbox
 cd /to/desired/folder
 git clone git@github.com:maunoxyd/vagrant-files.git .
 mkdir public
