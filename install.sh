@@ -30,7 +30,9 @@ sed -i "s/display_errors = .*/display_errors = On/" /etc/php5/apache2/php.ini
 
 sed -i 's/AllowOverride None/AllowOverride All/' /etc/apache2/apache2.conf
 sed -i 's/AllowOverride None/AllowOverride All/' /etc/apache2/sites-enabled/000-default
-sed -i 's/\/var\/www/\/var\/www\/laravel\/public/' /etc/apache2/sites-enabled/000-default
+
+# Update the following with your desired document root
+sed -i 's/\/var\/www/\/var\/www\/public/' /etc/apache2/sites-enabled/000-default
 
 echo "--- Restarting Apache ---"
 sudo service apache2 restart
