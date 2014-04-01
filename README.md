@@ -27,6 +27,14 @@ To suspend/halt/destroy:
 ```
 vagrant suspend/halt/destroy
 ```
+To list boxes:
+```
+vagrant box list
+```
+To delete box:
+```
+vagrant box remove vagrant-wheezy64 virtualbox
+```
 
 # For npm, run the following:
 ```
