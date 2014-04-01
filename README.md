@@ -30,6 +30,7 @@ Add the following on top of /etc/hosts file:
 ```
 192.168.10.10   app.dev
 ```
+To install git, virtualbox and setup VM
 ```
 sudo apt-get install git virtualbox
 cd /to/desired/folder
