@@ -16,6 +16,7 @@ This may change as when the script is run..
 
 # Usage
 ```
+install git and virtualbox on your host
 cd /to/desired/folder
 git clone git@github.com:maunoxyd/vagrant-files.git .
 mkdir public
