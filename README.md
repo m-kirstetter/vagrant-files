@@ -42,7 +42,7 @@ vagrant up
 vagrant ssh
 cd /vagrant
 sudo chmod +x install-guest.sh
-./instal-guest.sh
+./install-guest.sh
 ```
 To start/suspend/halt/destroy (from host):  
 ```
