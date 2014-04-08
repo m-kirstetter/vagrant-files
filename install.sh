@@ -28,11 +28,16 @@ echo "--- What developer codes without errors turned on? Not you, master. ---"
 sed -i "s/error_reporting = .*/error_reporting = E_ALL/" /etc/php5/apache2/php.ini
 sed -i "s/display_errors = .*/display_errors = On/" /etc/php5/apache2/php.ini
 
-sed -i 's/AllowOverride None/AllowOverride All/' /etc/apache2/apache2.conf
-sed -i 's/AllowOverride None/AllowOverride All/' /etc/apache2/sites-enabled/000-default
+echo "--- We set apache user and group as vagrant for permissions ---"
+sed -i 's/User ${APACHE_RUN_USER}/User vagrant/' /etc/apache2/apache2.conf
+sed -i 's/Group ${APACHE_RUN_GROUP}/User vagrant/' /etc/apache2/apache2.conf
 
 # Update the following with your desired document root
 sed -i 's/\/var\/www/\/var\/www\/public/' /etc/apache2/sites-enabled/000-default
+
+echo "--- We set apache user and group to vagrant for permissions purposes. ---"
+sed -i 's/AllowOverride None/AllowOverride All/' /etc/apache2/apache2.conf
+sed -i 's/AllowOverride None/AllowOverride All/' /etc/apache2/sites-enabled/000-default
 
 echo "--- Restarting Apache ---"
 sudo service apache2 restart
